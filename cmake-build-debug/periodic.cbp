@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="periodic"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\Documents\;CMake Files\..\..\Documents\repositories\;CMake Files\..\..\Documents\repositories\Cinder\;CMake Files\..\..\Documents\repositories\Cinder\build\;CMake Files\..\..\Documents\repositories\Cinder\build\lib\;CMake Files\..\..\Documents\repositories\Cinder\build\lib\linux\;CMake Files\..\..\Documents\repositories\Cinder\build\lib\linux\x86_64\;CMake Files\..\..\Documents\repositories\Cinder\build\lib\linux\x86_64\ogl\;CMake Files\..\..\Documents\repositories\Cinder\build\lib\linux\x86_64\ogl\Debug\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ben/CLionProjects/periodic/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ben/CLionProjects/periodic/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ben/CLionProjects/periodic/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ben/CLionProjects/periodic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ben/CLionProjects/periodic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ben/CLionProjects/periodic/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ben/CLionProjects/periodic/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ben/CLionProjects/periodic/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ben/CLionProjects/periodic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ben/CLionProjects/periodic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ben/CLionProjects/periodic/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ben/CLionProjects/periodic/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ben/CLionProjects/periodic/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ben/CLionProjects/periodic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ben/CLionProjects/periodic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="periodic">
+				<Option output="/home/ben/CLionProjects/periodic/cmake-build-debug/periodic" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ben/CLionProjects/periodic/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFT2_BUILD_LIBRARY"/>
+					<Add option="-DFT_DEBUG_LEVEL_TRACE"/>
+					<Add option="-DCINDER_GL_CORE"/>
+					<Add option="-D_UNIX"/>
+					<Add option="-D_GLFW_X11"/>
+					<Add directory="/home/ben/Documents/repositories/Cinder/blocks/Cairo/include"/>
+					<Add directory="/home/ben/Documents/repositories/Cinder/blocks/Cairo/include/cinder/cairo"/>
+					<Add directory="/usr/include/cairo"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/home/ben/Documents/repositories/Cinder/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ben/CLionProjects/periodic/cmake-build-debug/Makefile&quot;  VERBOSE=1 periodic"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ben/CLionProjects/periodic/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ben/CLionProjects/periodic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ben/CLionProjects/periodic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="periodic/fast">
+				<Option output="/home/ben/CLionProjects/periodic/cmake-build-debug/periodic" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ben/CLionProjects/periodic/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFT2_BUILD_LIBRARY"/>
+					<Add option="-DFT_DEBUG_LEVEL_TRACE"/>
+					<Add option="-DCINDER_GL_CORE"/>
+					<Add option="-D_UNIX"/>
+					<Add option="-D_GLFW_X11"/>
+					<Add directory="/home/ben/Documents/repositories/Cinder/blocks/Cairo/include"/>
+					<Add directory="/home/ben/Documents/repositories/Cinder/blocks/Cairo/include/cinder/cairo"/>
+					<Add directory="/usr/include/cairo"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/home/ben/Documents/repositories/Cinder/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/ben/CLionProjects/periodic/cmake-build-debug/Makefile&quot;  VERBOSE=1 periodic/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/ben/CLionProjects/periodic/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/ben/CLionProjects/periodic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/ben/CLionProjects/periodic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ben/CLionProjects/periodic/main.cpp">
+			<Option target="periodic"/>
+		</Unit>
+		<Unit filename="/home/ben/CLionProjects/periodic/shader_data.h">
+			<Option target="periodic"/>
+		</Unit>
+		<Unit filename="/home/ben/Documents/repositories/Cinder/blocks/Cairo/src/Cairo.cpp">
+			<Option target="periodic"/>
+		</Unit>
+		<Unit filename="/home/ben/CLionProjects/periodic/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/ben/CLionProjects/periodic/../../Documents/repositories/Cinder/build/lib/linux/x86_64/ogl/Debug/cinderTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\Documents\repositories\Cinder\build\lib\linux\x86_64\ogl\Debug\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
