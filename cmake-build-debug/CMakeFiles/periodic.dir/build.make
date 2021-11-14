@@ -92,43 +92,118 @@ CMakeFiles/periodic.dir/home/ben/Documents/repositories/Cinder/blocks/Cairo/src/
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/periodic.dir/home/ben/Documents/repositories/Cinder/blocks/Cairo/src/Cairo.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ben/Documents/repositories/Cinder/blocks/Cairo/src/Cairo.cpp -o CMakeFiles/periodic.dir/home/ben/Documents/repositories/Cinder/blocks/Cairo/src/Cairo.cpp.s
 
+CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_reader.cpp.o: CMakeFiles/periodic.dir/flags.make
+CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_reader.cpp.o: /home/ben/Documents/repositories/jsoncpp/src/lib_json/json_reader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ben/CLionProjects/periodic/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_reader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_reader.cpp.o -c /home/ben/Documents/repositories/jsoncpp/src/lib_json/json_reader.cpp
+
+CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_reader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_reader.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ben/Documents/repositories/jsoncpp/src/lib_json/json_reader.cpp > CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_reader.cpp.i
+
+CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_reader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_reader.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ben/Documents/repositories/jsoncpp/src/lib_json/json_reader.cpp -o CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_reader.cpp.s
+
+CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_value.cpp.o: CMakeFiles/periodic.dir/flags.make
+CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_value.cpp.o: /home/ben/Documents/repositories/jsoncpp/src/lib_json/json_value.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ben/CLionProjects/periodic/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_value.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_value.cpp.o -c /home/ben/Documents/repositories/jsoncpp/src/lib_json/json_value.cpp
+
+CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_value.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_value.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ben/Documents/repositories/jsoncpp/src/lib_json/json_value.cpp > CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_value.cpp.i
+
+CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_value.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_value.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ben/Documents/repositories/jsoncpp/src/lib_json/json_value.cpp -o CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_value.cpp.s
+
+CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_writer.cpp.o: CMakeFiles/periodic.dir/flags.make
+CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_writer.cpp.o: /home/ben/Documents/repositories/jsoncpp/src/lib_json/json_writer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ben/CLionProjects/periodic/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_writer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_writer.cpp.o -c /home/ben/Documents/repositories/jsoncpp/src/lib_json/json_writer.cpp
+
+CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_writer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_writer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ben/Documents/repositories/jsoncpp/src/lib_json/json_writer.cpp > CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_writer.cpp.i
+
+CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_writer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_writer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ben/Documents/repositories/jsoncpp/src/lib_json/json_writer.cpp -o CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_writer.cpp.s
+
+CMakeFiles/periodic.dir/table.cpp.o: CMakeFiles/periodic.dir/flags.make
+CMakeFiles/periodic.dir/table.cpp.o: ../table.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ben/CLionProjects/periodic/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/periodic.dir/table.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/periodic.dir/table.cpp.o -c /home/ben/CLionProjects/periodic/table.cpp
+
+CMakeFiles/periodic.dir/table.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/periodic.dir/table.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ben/CLionProjects/periodic/table.cpp > CMakeFiles/periodic.dir/table.cpp.i
+
+CMakeFiles/periodic.dir/table.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/periodic.dir/table.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ben/CLionProjects/periodic/table.cpp -o CMakeFiles/periodic.dir/table.cpp.s
+
+CMakeFiles/periodic.dir/eleminfodlg.cpp.o: CMakeFiles/periodic.dir/flags.make
+CMakeFiles/periodic.dir/eleminfodlg.cpp.o: ../eleminfodlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ben/CLionProjects/periodic/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/periodic.dir/eleminfodlg.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/periodic.dir/eleminfodlg.cpp.o -c /home/ben/CLionProjects/periodic/eleminfodlg.cpp
+
+CMakeFiles/periodic.dir/eleminfodlg.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/periodic.dir/eleminfodlg.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ben/CLionProjects/periodic/eleminfodlg.cpp > CMakeFiles/periodic.dir/eleminfodlg.cpp.i
+
+CMakeFiles/periodic.dir/eleminfodlg.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/periodic.dir/eleminfodlg.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ben/CLionProjects/periodic/eleminfodlg.cpp -o CMakeFiles/periodic.dir/eleminfodlg.cpp.s
+
 # Object files for target periodic
 periodic_OBJECTS = \
 "CMakeFiles/periodic.dir/main.cpp.o" \
-"CMakeFiles/periodic.dir/home/ben/Documents/repositories/Cinder/blocks/Cairo/src/Cairo.cpp.o"
+"CMakeFiles/periodic.dir/home/ben/Documents/repositories/Cinder/blocks/Cairo/src/Cairo.cpp.o" \
+"CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_reader.cpp.o" \
+"CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_value.cpp.o" \
+"CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_writer.cpp.o" \
+"CMakeFiles/periodic.dir/table.cpp.o" \
+"CMakeFiles/periodic.dir/eleminfodlg.cpp.o"
 
 # External object files for target periodic
 periodic_EXTERNAL_OBJECTS =
 
-periodic: CMakeFiles/periodic.dir/main.cpp.o
-periodic: CMakeFiles/periodic.dir/home/ben/Documents/repositories/Cinder/blocks/Cairo/src/Cairo.cpp.o
-periodic: CMakeFiles/periodic.dir/build.make
-periodic: /home/ben/Documents/repositories/Cinder/lib/linux/x86_64/ogl/Debug/libcinder.a
-periodic: /usr/lib/x86_64-linux-gnu/libGL.so
-periodic: /usr/lib/x86_64-linux-gnu/libGLU.so
-periodic: /usr/lib/x86_64-linux-gnu/libSM.so
-periodic: /usr/lib/x86_64-linux-gnu/libICE.so
-periodic: /usr/lib/x86_64-linux-gnu/libX11.so
-periodic: /usr/lib/x86_64-linux-gnu/libXext.so
-periodic: /usr/lib/x86_64-linux-gnu/libz.so
-periodic: /usr/lib/x86_64-linux-gnu/libcurl.so
-periodic: /usr/lib/x86_64-linux-gnu/libfontconfig.so
-periodic: /usr/lib/x86_64-linux-gnu/libpulse.so
-periodic: /usr/lib/x86_64-linux-gnu/libmpg123.so
-periodic: /usr/lib/x86_64-linux-gnu/libsndfile.so
-periodic: /usr/lib/x86_64-linux-gnu/libgobject-2.0.so
-periodic: /usr/lib/x86_64-linux-gnu/libglib-2.0.so
-periodic: /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so
-periodic: /usr/lib/x86_64-linux-gnu/libgstbase-1.0.so
-periodic: /usr/lib/x86_64-linux-gnu/libgstapp-1.0.so
-periodic: /usr/lib/x86_64-linux-gnu/libgstvideo-1.0.so
-periodic: /usr/lib/x86_64-linux-gnu/libgstgl-1.0.so
-periodic: CMakeFiles/periodic.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ben/CLionProjects/periodic/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable periodic"
+bin/periodic: CMakeFiles/periodic.dir/main.cpp.o
+bin/periodic: CMakeFiles/periodic.dir/home/ben/Documents/repositories/Cinder/blocks/Cairo/src/Cairo.cpp.o
+bin/periodic: CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_reader.cpp.o
+bin/periodic: CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_value.cpp.o
+bin/periodic: CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_writer.cpp.o
+bin/periodic: CMakeFiles/periodic.dir/table.cpp.o
+bin/periodic: CMakeFiles/periodic.dir/eleminfodlg.cpp.o
+bin/periodic: CMakeFiles/periodic.dir/build.make
+bin/periodic: /home/ben/Documents/repositories/Cinder/lib/linux/x86_64/ogl/Debug/libcinder.a
+bin/periodic: /usr/lib/x86_64-linux-gnu/libGL.so
+bin/periodic: /usr/lib/x86_64-linux-gnu/libGLU.so
+bin/periodic: /usr/lib/x86_64-linux-gnu/libSM.so
+bin/periodic: /usr/lib/x86_64-linux-gnu/libICE.so
+bin/periodic: /usr/lib/x86_64-linux-gnu/libX11.so
+bin/periodic: /usr/lib/x86_64-linux-gnu/libXext.so
+bin/periodic: /usr/lib/x86_64-linux-gnu/libz.so
+bin/periodic: /usr/lib/x86_64-linux-gnu/libcurl.so
+bin/periodic: /usr/lib/x86_64-linux-gnu/libfontconfig.so
+bin/periodic: /usr/lib/x86_64-linux-gnu/libpulse.so
+bin/periodic: /usr/lib/x86_64-linux-gnu/libmpg123.so
+bin/periodic: /usr/lib/x86_64-linux-gnu/libsndfile.so
+bin/periodic: /usr/lib/x86_64-linux-gnu/libgobject-2.0.so
+bin/periodic: /usr/lib/x86_64-linux-gnu/libglib-2.0.so
+bin/periodic: /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so
+bin/periodic: /usr/lib/x86_64-linux-gnu/libgstbase-1.0.so
+bin/periodic: /usr/lib/x86_64-linux-gnu/libgstapp-1.0.so
+bin/periodic: /usr/lib/x86_64-linux-gnu/libgstvideo-1.0.so
+bin/periodic: /usr/lib/x86_64-linux-gnu/libgstgl-1.0.so
+bin/periodic: CMakeFiles/periodic.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ben/CLionProjects/periodic/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable bin/periodic"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/periodic.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/periodic.dir/build: periodic
+CMakeFiles/periodic.dir/build: bin/periodic
 .PHONY : CMakeFiles/periodic.dir/build
 
 CMakeFiles/periodic.dir/clean:

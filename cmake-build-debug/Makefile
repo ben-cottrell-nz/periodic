@@ -129,6 +129,30 @@ periodic/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/periodic.dir/build.make CMakeFiles/periodic.dir/build
 .PHONY : periodic/fast
 
+eleminfodlg.o: eleminfodlg.cpp.o
+.PHONY : eleminfodlg.o
+
+# target to build an object file
+eleminfodlg.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/periodic.dir/build.make CMakeFiles/periodic.dir/eleminfodlg.cpp.o
+.PHONY : eleminfodlg.cpp.o
+
+eleminfodlg.i: eleminfodlg.cpp.i
+.PHONY : eleminfodlg.i
+
+# target to preprocess a source file
+eleminfodlg.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/periodic.dir/build.make CMakeFiles/periodic.dir/eleminfodlg.cpp.i
+.PHONY : eleminfodlg.cpp.i
+
+eleminfodlg.s: eleminfodlg.cpp.s
+.PHONY : eleminfodlg.s
+
+# target to generate assembly for a file
+eleminfodlg.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/periodic.dir/build.make CMakeFiles/periodic.dir/eleminfodlg.cpp.s
+.PHONY : eleminfodlg.cpp.s
+
 home/ben/Documents/repositories/Cinder/blocks/Cairo/src/Cairo.o: home/ben/Documents/repositories/Cinder/blocks/Cairo/src/Cairo.cpp.o
 .PHONY : home/ben/Documents/repositories/Cinder/blocks/Cairo/src/Cairo.o
 
@@ -152,6 +176,78 @@ home/ben/Documents/repositories/Cinder/blocks/Cairo/src/Cairo.s: home/ben/Docume
 home/ben/Documents/repositories/Cinder/blocks/Cairo/src/Cairo.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/periodic.dir/build.make CMakeFiles/periodic.dir/home/ben/Documents/repositories/Cinder/blocks/Cairo/src/Cairo.cpp.s
 .PHONY : home/ben/Documents/repositories/Cinder/blocks/Cairo/src/Cairo.cpp.s
+
+home/ben/Documents/repositories/jsoncpp/src/lib_json/json_reader.o: home/ben/Documents/repositories/jsoncpp/src/lib_json/json_reader.cpp.o
+.PHONY : home/ben/Documents/repositories/jsoncpp/src/lib_json/json_reader.o
+
+# target to build an object file
+home/ben/Documents/repositories/jsoncpp/src/lib_json/json_reader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/periodic.dir/build.make CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_reader.cpp.o
+.PHONY : home/ben/Documents/repositories/jsoncpp/src/lib_json/json_reader.cpp.o
+
+home/ben/Documents/repositories/jsoncpp/src/lib_json/json_reader.i: home/ben/Documents/repositories/jsoncpp/src/lib_json/json_reader.cpp.i
+.PHONY : home/ben/Documents/repositories/jsoncpp/src/lib_json/json_reader.i
+
+# target to preprocess a source file
+home/ben/Documents/repositories/jsoncpp/src/lib_json/json_reader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/periodic.dir/build.make CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_reader.cpp.i
+.PHONY : home/ben/Documents/repositories/jsoncpp/src/lib_json/json_reader.cpp.i
+
+home/ben/Documents/repositories/jsoncpp/src/lib_json/json_reader.s: home/ben/Documents/repositories/jsoncpp/src/lib_json/json_reader.cpp.s
+.PHONY : home/ben/Documents/repositories/jsoncpp/src/lib_json/json_reader.s
+
+# target to generate assembly for a file
+home/ben/Documents/repositories/jsoncpp/src/lib_json/json_reader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/periodic.dir/build.make CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_reader.cpp.s
+.PHONY : home/ben/Documents/repositories/jsoncpp/src/lib_json/json_reader.cpp.s
+
+home/ben/Documents/repositories/jsoncpp/src/lib_json/json_value.o: home/ben/Documents/repositories/jsoncpp/src/lib_json/json_value.cpp.o
+.PHONY : home/ben/Documents/repositories/jsoncpp/src/lib_json/json_value.o
+
+# target to build an object file
+home/ben/Documents/repositories/jsoncpp/src/lib_json/json_value.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/periodic.dir/build.make CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_value.cpp.o
+.PHONY : home/ben/Documents/repositories/jsoncpp/src/lib_json/json_value.cpp.o
+
+home/ben/Documents/repositories/jsoncpp/src/lib_json/json_value.i: home/ben/Documents/repositories/jsoncpp/src/lib_json/json_value.cpp.i
+.PHONY : home/ben/Documents/repositories/jsoncpp/src/lib_json/json_value.i
+
+# target to preprocess a source file
+home/ben/Documents/repositories/jsoncpp/src/lib_json/json_value.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/periodic.dir/build.make CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_value.cpp.i
+.PHONY : home/ben/Documents/repositories/jsoncpp/src/lib_json/json_value.cpp.i
+
+home/ben/Documents/repositories/jsoncpp/src/lib_json/json_value.s: home/ben/Documents/repositories/jsoncpp/src/lib_json/json_value.cpp.s
+.PHONY : home/ben/Documents/repositories/jsoncpp/src/lib_json/json_value.s
+
+# target to generate assembly for a file
+home/ben/Documents/repositories/jsoncpp/src/lib_json/json_value.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/periodic.dir/build.make CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_value.cpp.s
+.PHONY : home/ben/Documents/repositories/jsoncpp/src/lib_json/json_value.cpp.s
+
+home/ben/Documents/repositories/jsoncpp/src/lib_json/json_writer.o: home/ben/Documents/repositories/jsoncpp/src/lib_json/json_writer.cpp.o
+.PHONY : home/ben/Documents/repositories/jsoncpp/src/lib_json/json_writer.o
+
+# target to build an object file
+home/ben/Documents/repositories/jsoncpp/src/lib_json/json_writer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/periodic.dir/build.make CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_writer.cpp.o
+.PHONY : home/ben/Documents/repositories/jsoncpp/src/lib_json/json_writer.cpp.o
+
+home/ben/Documents/repositories/jsoncpp/src/lib_json/json_writer.i: home/ben/Documents/repositories/jsoncpp/src/lib_json/json_writer.cpp.i
+.PHONY : home/ben/Documents/repositories/jsoncpp/src/lib_json/json_writer.i
+
+# target to preprocess a source file
+home/ben/Documents/repositories/jsoncpp/src/lib_json/json_writer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/periodic.dir/build.make CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_writer.cpp.i
+.PHONY : home/ben/Documents/repositories/jsoncpp/src/lib_json/json_writer.cpp.i
+
+home/ben/Documents/repositories/jsoncpp/src/lib_json/json_writer.s: home/ben/Documents/repositories/jsoncpp/src/lib_json/json_writer.cpp.s
+.PHONY : home/ben/Documents/repositories/jsoncpp/src/lib_json/json_writer.s
+
+# target to generate assembly for a file
+home/ben/Documents/repositories/jsoncpp/src/lib_json/json_writer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/periodic.dir/build.make CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_writer.cpp.s
+.PHONY : home/ben/Documents/repositories/jsoncpp/src/lib_json/json_writer.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -177,6 +273,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/periodic.dir/build.make CMakeFiles/periodic.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+table.o: table.cpp.o
+.PHONY : table.o
+
+# target to build an object file
+table.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/periodic.dir/build.make CMakeFiles/periodic.dir/table.cpp.o
+.PHONY : table.cpp.o
+
+table.i: table.cpp.i
+.PHONY : table.i
+
+# target to preprocess a source file
+table.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/periodic.dir/build.make CMakeFiles/periodic.dir/table.cpp.i
+.PHONY : table.cpp.i
+
+table.s: table.cpp.s
+.PHONY : table.s
+
+# target to generate assembly for a file
+table.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/periodic.dir/build.make CMakeFiles/periodic.dir/table.cpp.s
+.PHONY : table.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +306,27 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... periodic"
+	@echo "... eleminfodlg.o"
+	@echo "... eleminfodlg.i"
+	@echo "... eleminfodlg.s"
 	@echo "... home/ben/Documents/repositories/Cinder/blocks/Cairo/src/Cairo.o"
 	@echo "... home/ben/Documents/repositories/Cinder/blocks/Cairo/src/Cairo.i"
 	@echo "... home/ben/Documents/repositories/Cinder/blocks/Cairo/src/Cairo.s"
+	@echo "... home/ben/Documents/repositories/jsoncpp/src/lib_json/json_reader.o"
+	@echo "... home/ben/Documents/repositories/jsoncpp/src/lib_json/json_reader.i"
+	@echo "... home/ben/Documents/repositories/jsoncpp/src/lib_json/json_reader.s"
+	@echo "... home/ben/Documents/repositories/jsoncpp/src/lib_json/json_value.o"
+	@echo "... home/ben/Documents/repositories/jsoncpp/src/lib_json/json_value.i"
+	@echo "... home/ben/Documents/repositories/jsoncpp/src/lib_json/json_value.s"
+	@echo "... home/ben/Documents/repositories/jsoncpp/src/lib_json/json_writer.o"
+	@echo "... home/ben/Documents/repositories/jsoncpp/src/lib_json/json_writer.i"
+	@echo "... home/ben/Documents/repositories/jsoncpp/src/lib_json/json_writer.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... table.o"
+	@echo "... table.i"
+	@echo "... table.s"
 .PHONY : help
 
 

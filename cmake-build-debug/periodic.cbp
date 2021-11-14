@@ -38,8 +38,8 @@
 				</MakeCommands>
 			</Target>
 			<Target title="periodic">
-				<Option output="/home/ben/CLionProjects/periodic/cmake-build-debug/periodic" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ben/CLionProjects/periodic/cmake-build-debug"/>
+				<Option output="/home/ben/CLionProjects/periodic/cmake-build-debug/bin/periodic" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ben/CLionProjects/periodic/cmake-build-debug/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,6 +53,7 @@
 					<Add directory="/home/ben/Documents/repositories/Cinder/blocks/Cairo/include/cinder/cairo"/>
 					<Add directory="/usr/include/cairo"/>
 					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/home/ben/Documents/repositories/jsoncpp/include"/>
 					<Add directory="/home/ben/Documents/repositories/Cinder/include"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
@@ -70,8 +71,8 @@
 				</MakeCommands>
 			</Target>
 			<Target title="periodic/fast">
-				<Option output="/home/ben/CLionProjects/periodic/cmake-build-debug/periodic" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ben/CLionProjects/periodic/cmake-build-debug"/>
+				<Option output="/home/ben/CLionProjects/periodic/cmake-build-debug/bin/periodic" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ben/CLionProjects/periodic/cmake-build-debug/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -85,6 +86,7 @@
 					<Add directory="/home/ben/Documents/repositories/Cinder/blocks/Cairo/include/cinder/cairo"/>
 					<Add directory="/usr/include/cairo"/>
 					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/home/ben/Documents/repositories/jsoncpp/include"/>
 					<Add directory="/home/ben/Documents/repositories/Cinder/include"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
@@ -102,13 +104,37 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/ben/CLionProjects/periodic/eleminfodlg.cpp">
+			<Option target="periodic"/>
+		</Unit>
+		<Unit filename="/home/ben/CLionProjects/periodic/eleminfodlg.h">
+			<Option target="periodic"/>
+		</Unit>
 		<Unit filename="/home/ben/CLionProjects/periodic/main.cpp">
 			<Option target="periodic"/>
 		</Unit>
 		<Unit filename="/home/ben/CLionProjects/periodic/shader_data.h">
 			<Option target="periodic"/>
 		</Unit>
+		<Unit filename="/home/ben/CLionProjects/periodic/table.cpp">
+			<Option target="periodic"/>
+		</Unit>
+		<Unit filename="/home/ben/CLionProjects/periodic/table.h">
+			<Option target="periodic"/>
+		</Unit>
 		<Unit filename="/home/ben/Documents/repositories/Cinder/blocks/Cairo/src/Cairo.cpp">
+			<Option target="periodic"/>
+		</Unit>
+		<Unit filename="/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_reader.cpp">
+			<Option target="periodic"/>
+		</Unit>
+		<Unit filename="/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_tool.h">
+			<Option target="periodic"/>
+		</Unit>
+		<Unit filename="/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_value.cpp">
+			<Option target="periodic"/>
+		</Unit>
+		<Unit filename="/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_writer.cpp">
 			<Option target="periodic"/>
 		</Unit>
 		<Unit filename="/home/ben/CLionProjects/periodic/CMakeLists.txt">
