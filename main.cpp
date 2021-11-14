@@ -1,7 +1,6 @@
 #include "cinder/app/App.h"
 #include "cinder/app/RendererGl.h"
 #include "cinder/gl/gl.h"
-#include "cinder/gl/Texture.h"
 #include "cinder/svg/Svg.h"
 #include "cinder/ip/Fill.h"
 #include "cinder/Text.h"
@@ -10,6 +9,7 @@
 #include "json/json.h"
 #include "table.h"
 #include "eleminfodlg.h"
+#include "appdatamanager.h"
 
 using namespace ci;
 using namespace ci::app;
@@ -36,8 +36,7 @@ private:
 };
 
 void PeriodicApp::setup() {
-    ifstream jsonFile(getAssetPath("elements-data.json"));
-    jsonFile >> mJsonRoot;
+    AppDataManagerInstance();
     mTable.setup();
     mTable.setVisible(true);
     mElemInfoDlg.setup();
@@ -66,8 +65,6 @@ void PeriodicApp::draw() {
     } else if (mTable.isVisible()) {
         mTable.draw();
     }
-
-
     gl::drawString(toString(floor(getAverageFps())) + " FPS",
                              vec2(10, getWindowHeight() - font.getDescent()));
 }

@@ -3,10 +3,22 @@
 //
 
 #include "eleminfodlg.h"
+#include "appdatamanager.h"
 
 void ElemInfoDlg::draw() {
     gl::color(Color::white());
-    gl::drawString(mText, {0, mFont.getAscent()*2});
+    AppDataManager::EntrySymbolInfo entry = AppDataManagerInstance()->entries().at(mText);
+    string text;
+    auto v = AppDataManagerInstance()->entrySymbolInfoKeys();
+    int y = 1;
+    for (int i = 0; i < v.size(); i++) {
+        text.clear();
+        text += v[i] + ": ";
+        text += entry.values[i];
+        gl::drawString(text, {0, mFont.getAscent() * 1.2 * y}, Color::white(), mFont);
+        y += 1;
+    }
+
 }
 
 bool ElemInfoDlg::isVisible() {
@@ -18,7 +30,7 @@ void ElemInfoDlg::resize() {
 }
 
 void ElemInfoDlg::setup() {
-    mFont = Font("",27);
+    mFont = Font("", 27);
 }
 
 void ElemInfoDlg::mouseDown(MouseEvent &event) {

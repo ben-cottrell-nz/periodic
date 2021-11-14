@@ -7,6 +7,7 @@
 #include "cinder/gl/Texture.h"
 #include <iostream>
 #include <vector>
+#include "appdatamanager.h"
 
 using namespace std;
 using namespace ci;
@@ -36,12 +37,24 @@ void Table::draw() {
     for (y = 0; y < ROWS; y++) {
         for (x = 0; x < COLUMNS; x++) {
             if (elemSymbols[y][x][0] != '\t') {
-                gl::color(0.698, 0.875, 0.859);
+                uint32_t colorVal;
                 Entry &e = mEntries[index++];
+                auto str = AppDataManagerInstance()->getValForElem(e.elemSymbol, "CPKHexColor");
+                str.insert(0, "0x");
+                colorVal = stoi(
+                        str,
+                        0, 16);
+                gl::color(Color::hex(colorVal) * 0.5);
                 gl::drawSolidRoundedRect(e.pos, 5);
-                gl::color(0.13, 0.13, 0.13);
+                auto entrySymbolKeys = AppDataManagerInstance()->entrySymbolInfoKeys();
+
+//                gl::color(Color::hex(0x222222));
+                gl::color(Color::hex(colorVal) * 3);
                 mTextureFont->drawString(elemSymbols[y][x],
                                          vec2{entryWidth * x, entryHeight * y + mTextureFont->getFont().getSize() * 2});
+                gl::drawString(AppDataManagerInstance()->getValForElem(e.elemSymbol, "AtomicNumber"),
+                               vec2{entryWidth * x, entryHeight * y + entryHeight - mSmallFont.getSize()},
+                               Color::hex(colorVal) * 3, mSmallFont);
             }
         }
     }
@@ -51,7 +64,7 @@ bool Table::isVisible() {
     return mVisible;
 }
 
-void Table::mouseDown(MouseEvent &event, function<void(Entry*)> handler) {
+void Table::mouseDown(MouseEvent &event, function<void(Entry *)> handler) {
     for (auto &e : mEntries) {
         if (e.pos.contains(event.getPos())) {
             mSelectedEntry = &e;
@@ -95,6 +108,7 @@ void Table::setup() {
         }
     }
     mFont = Font("", max(entryWidth, entryHeight) * 0.5);
+    mSmallFont = Font("",16);
     mTextureFont = gl::TextureFont::create(mFont);
 }
 

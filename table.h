@@ -30,6 +30,7 @@ private:
     bool mVisible;
     vector<Entry> mEntries;
     Font mFont;
+    Font mSmallFont;
 };
 
 

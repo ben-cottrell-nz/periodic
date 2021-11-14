@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/ben/CLionProjects/periodic/appdatamanager.cpp" "/home/ben/CLionProjects/periodic/cmake-build-debug/CMakeFiles/periodic.dir/appdatamanager.cpp.o"
   "/home/ben/CLionProjects/periodic/eleminfodlg.cpp" "/home/ben/CLionProjects/periodic/cmake-build-debug/CMakeFiles/periodic.dir/eleminfodlg.cpp.o"
   "/home/ben/Documents/repositories/Cinder/blocks/Cairo/src/Cairo.cpp" "/home/ben/CLionProjects/periodic/cmake-build-debug/CMakeFiles/periodic.dir/home/ben/Documents/repositories/Cinder/blocks/Cairo/src/Cairo.cpp.o"
   "/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_reader.cpp" "/home/ben/CLionProjects/periodic/cmake-build-debug/CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_reader.cpp.o"

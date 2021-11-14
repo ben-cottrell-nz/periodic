@@ -129,6 +129,30 @@ periodic/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/periodic.dir/build.make CMakeFiles/periodic.dir/build
 .PHONY : periodic/fast
 
+appdatamanager.o: appdatamanager.cpp.o
+.PHONY : appdatamanager.o
+
+# target to build an object file
+appdatamanager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/periodic.dir/build.make CMakeFiles/periodic.dir/appdatamanager.cpp.o
+.PHONY : appdatamanager.cpp.o
+
+appdatamanager.i: appdatamanager.cpp.i
+.PHONY : appdatamanager.i
+
+# target to preprocess a source file
+appdatamanager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/periodic.dir/build.make CMakeFiles/periodic.dir/appdatamanager.cpp.i
+.PHONY : appdatamanager.cpp.i
+
+appdatamanager.s: appdatamanager.cpp.s
+.PHONY : appdatamanager.s
+
+# target to generate assembly for a file
+appdatamanager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/periodic.dir/build.make CMakeFiles/periodic.dir/appdatamanager.cpp.s
+.PHONY : appdatamanager.cpp.s
+
 eleminfodlg.o: eleminfodlg.cpp.o
 .PHONY : eleminfodlg.o
 
@@ -306,6 +330,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... periodic"
+	@echo "... appdatamanager.o"
+	@echo "... appdatamanager.i"
+	@echo "... appdatamanager.s"
 	@echo "... eleminfodlg.o"
 	@echo "... eleminfodlg.i"
 	@echo "... eleminfodlg.s"
