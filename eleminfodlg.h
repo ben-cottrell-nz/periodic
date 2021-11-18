@@ -7,6 +7,7 @@
 #include "cinder/app/App.h"
 #include "cinder/gl/gl.h"
 #include "cinder/gl/Texture.h"
+#include "cinder/Timeline.h"
 
 using namespace ci;
 using namespace ci::app;
@@ -21,10 +22,14 @@ public:
     void resize();
     void setup();
     void mouseDown(MouseEvent& event);
+    void transitionEnter();
+    void transitionLeave();
 private:
+    Anim<float> mAlpha;
     bool mVisible;
     string mText;
     Font mFont;
+    gl::BatchRef mBatch;
 };
 
 

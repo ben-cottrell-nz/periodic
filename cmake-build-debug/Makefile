@@ -177,30 +177,6 @@ eleminfodlg.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/periodic.dir/build.make CMakeFiles/periodic.dir/eleminfodlg.cpp.s
 .PHONY : eleminfodlg.cpp.s
 
-home/ben/Documents/repositories/Cinder/blocks/Cairo/src/Cairo.o: home/ben/Documents/repositories/Cinder/blocks/Cairo/src/Cairo.cpp.o
-.PHONY : home/ben/Documents/repositories/Cinder/blocks/Cairo/src/Cairo.o
-
-# target to build an object file
-home/ben/Documents/repositories/Cinder/blocks/Cairo/src/Cairo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/periodic.dir/build.make CMakeFiles/periodic.dir/home/ben/Documents/repositories/Cinder/blocks/Cairo/src/Cairo.cpp.o
-.PHONY : home/ben/Documents/repositories/Cinder/blocks/Cairo/src/Cairo.cpp.o
-
-home/ben/Documents/repositories/Cinder/blocks/Cairo/src/Cairo.i: home/ben/Documents/repositories/Cinder/blocks/Cairo/src/Cairo.cpp.i
-.PHONY : home/ben/Documents/repositories/Cinder/blocks/Cairo/src/Cairo.i
-
-# target to preprocess a source file
-home/ben/Documents/repositories/Cinder/blocks/Cairo/src/Cairo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/periodic.dir/build.make CMakeFiles/periodic.dir/home/ben/Documents/repositories/Cinder/blocks/Cairo/src/Cairo.cpp.i
-.PHONY : home/ben/Documents/repositories/Cinder/blocks/Cairo/src/Cairo.cpp.i
-
-home/ben/Documents/repositories/Cinder/blocks/Cairo/src/Cairo.s: home/ben/Documents/repositories/Cinder/blocks/Cairo/src/Cairo.cpp.s
-.PHONY : home/ben/Documents/repositories/Cinder/blocks/Cairo/src/Cairo.s
-
-# target to generate assembly for a file
-home/ben/Documents/repositories/Cinder/blocks/Cairo/src/Cairo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/periodic.dir/build.make CMakeFiles/periodic.dir/home/ben/Documents/repositories/Cinder/blocks/Cairo/src/Cairo.cpp.s
-.PHONY : home/ben/Documents/repositories/Cinder/blocks/Cairo/src/Cairo.cpp.s
-
 home/ben/Documents/repositories/jsoncpp/src/lib_json/json_reader.o: home/ben/Documents/repositories/jsoncpp/src/lib_json/json_reader.cpp.o
 .PHONY : home/ben/Documents/repositories/jsoncpp/src/lib_json/json_reader.o
 
@@ -336,9 +312,6 @@ help:
 	@echo "... eleminfodlg.o"
 	@echo "... eleminfodlg.i"
 	@echo "... eleminfodlg.s"
-	@echo "... home/ben/Documents/repositories/Cinder/blocks/Cairo/src/Cairo.o"
-	@echo "... home/ben/Documents/repositories/Cinder/blocks/Cairo/src/Cairo.i"
-	@echo "... home/ben/Documents/repositories/Cinder/blocks/Cairo/src/Cairo.s"
 	@echo "... home/ben/Documents/repositories/jsoncpp/src/lib_json/json_reader.o"
 	@echo "... home/ben/Documents/repositories/jsoncpp/src/lib_json/json_reader.i"
 	@echo "... home/ben/Documents/repositories/jsoncpp/src/lib_json/json_reader.s"

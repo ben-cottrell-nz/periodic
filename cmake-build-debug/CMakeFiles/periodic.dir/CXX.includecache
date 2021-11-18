@@ -37,6 +37,8 @@ cinder/gl/gl.h
 /home/ben/CLionProjects/periodic/cinder/gl/gl.h
 cinder/gl/Texture.h
 /home/ben/CLionProjects/periodic/cinder/gl/Texture.h
+cinder/Timeline.h
+/home/ben/CLionProjects/periodic/cinder/Timeline.h
 
 /home/ben/Documents/repositories/Cinder/include/KHR/khrplatform.h
 stdint.h
@@ -215,6 +217,10 @@ map
 -
 vector
 -
+
+/home/ben/Documents/repositories/Cinder/include/cinder/Easing.h
+cinder/CinderMath.h
+/home/ben/Documents/repositories/Cinder/include/cinder/cinder/CinderMath.h
 
 /home/ben/Documents/repositories/Cinder/include/cinder/Exception.h
 exception
@@ -506,6 +512,28 @@ condition_variable
 future
 -
 
+/home/ben/Documents/repositories/Cinder/include/cinder/Timeline.h
+cinder/Cinder.h
+/home/ben/Documents/repositories/Cinder/include/cinder/cinder/Cinder.h
+cinder/TimelineItem.h
+/home/ben/Documents/repositories/Cinder/include/cinder/cinder/TimelineItem.h
+cinder/Easing.h
+/home/ben/Documents/repositories/Cinder/include/cinder/cinder/Easing.h
+cinder/Tween.h
+/home/ben/Documents/repositories/Cinder/include/cinder/cinder/Tween.h
+vector
+-
+list
+-
+map
+-
+algorithm
+-
+
+/home/ben/Documents/repositories/Cinder/include/cinder/TimelineItem.h
+cinder/Cinder.h
+/home/ben/Documents/repositories/Cinder/include/cinder/cinder/Cinder.h
+
 /home/ben/Documents/repositories/Cinder/include/cinder/Timer.h
 cinder/Cinder.h
 /home/ben/Documents/repositories/Cinder/include/cinder/cinder/Cinder.h
@@ -529,6 +557,20 @@ cinder/Rect.h
 /home/ben/Documents/repositories/Cinder/include/cinder/cinder/Rect.h
 cinder/GeomIo.h
 /home/ben/Documents/repositories/Cinder/include/cinder/cinder/GeomIo.h
+
+/home/ben/Documents/repositories/Cinder/include/cinder/Tween.h
+cinder/Cinder.h
+/home/ben/Documents/repositories/Cinder/include/cinder/cinder/Cinder.h
+cinder/TimelineItem.h
+/home/ben/Documents/repositories/Cinder/include/cinder/cinder/TimelineItem.h
+cinder/CinderMath.h
+/home/ben/Documents/repositories/Cinder/include/cinder/cinder/CinderMath.h
+cinder/Easing.h
+/home/ben/Documents/repositories/Cinder/include/cinder/cinder/Easing.h
+cinder/Quaternion.h
+/home/ben/Documents/repositories/Cinder/include/cinder/cinder/Quaternion.h
+list
+-
 
 /home/ben/Documents/repositories/Cinder/include/cinder/Url.h
 cinder/Cinder.h

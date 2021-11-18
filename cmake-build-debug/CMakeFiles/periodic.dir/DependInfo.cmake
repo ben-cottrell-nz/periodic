@@ -10,7 +10,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/ben/CLionProjects/periodic/appdatamanager.cpp" "/home/ben/CLionProjects/periodic/cmake-build-debug/CMakeFiles/periodic.dir/appdatamanager.cpp.o"
   "/home/ben/CLionProjects/periodic/eleminfodlg.cpp" "/home/ben/CLionProjects/periodic/cmake-build-debug/CMakeFiles/periodic.dir/eleminfodlg.cpp.o"
-  "/home/ben/Documents/repositories/Cinder/blocks/Cairo/src/Cairo.cpp" "/home/ben/CLionProjects/periodic/cmake-build-debug/CMakeFiles/periodic.dir/home/ben/Documents/repositories/Cinder/blocks/Cairo/src/Cairo.cpp.o"
   "/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_reader.cpp" "/home/ben/CLionProjects/periodic/cmake-build-debug/CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_reader.cpp.o"
   "/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_value.cpp" "/home/ben/CLionProjects/periodic/cmake-build-debug/CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_value.cpp.o"
   "/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_writer.cpp" "/home/ben/CLionProjects/periodic/cmake-build-debug/CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_writer.cpp.o"
@@ -32,8 +31,6 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/ben/Documents/repositories/Cinder/blocks/Cairo/include"
   "/home/ben/Documents/repositories/Cinder/blocks/Cairo/include/cinder/cairo"
-  "/usr/include/cairo"
-  "/usr/include/freetype2"
   "/home/ben/Documents/repositories/jsoncpp/include"
   "/home/ben/Documents/repositories/Cinder/include"
   )

@@ -7,6 +7,7 @@
 #include "cinder/app/App.h"
 #include "cinder/gl/gl.h"
 #include "cinder/gl/Texture.h"
+#include "cinder/Timeline.h"
 
 using namespace ci;
 using namespace ci::app;
@@ -24,13 +25,19 @@ public:
         string elemSymbol;
     };
     void mouseDown(MouseEvent& event, function<void(Entry*)> handler);
+    void transitionEnter();
+    void transitionLeave();
 private:
     Entry* mSelectedEntry;
     gl::TextureFontRef mTextureFont;
     bool mVisible;
     vector<Entry> mEntries;
     Font mFont;
+    Font mBigFont;
     Font mSmallFont;
+    Font mTitleFont;
+    Anim<float> mAlpha;
+    const int BOTTOM_SPACE = 50;
 };
 
 

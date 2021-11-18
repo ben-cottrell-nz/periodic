@@ -51,8 +51,6 @@
 					<Add option="-D_GLFW_X11"/>
 					<Add directory="/home/ben/Documents/repositories/Cinder/blocks/Cairo/include"/>
 					<Add directory="/home/ben/Documents/repositories/Cinder/blocks/Cairo/include/cinder/cairo"/>
-					<Add directory="/usr/include/cairo"/>
-					<Add directory="/usr/include/freetype2"/>
 					<Add directory="/home/ben/Documents/repositories/jsoncpp/include"/>
 					<Add directory="/home/ben/Documents/repositories/Cinder/include"/>
 					<Add directory="/usr/include/c++/11"/>
@@ -84,8 +82,6 @@
 					<Add option="-D_GLFW_X11"/>
 					<Add directory="/home/ben/Documents/repositories/Cinder/blocks/Cairo/include"/>
 					<Add directory="/home/ben/Documents/repositories/Cinder/blocks/Cairo/include/cinder/cairo"/>
-					<Add directory="/usr/include/cairo"/>
-					<Add directory="/usr/include/freetype2"/>
 					<Add directory="/home/ben/Documents/repositories/jsoncpp/include"/>
 					<Add directory="/home/ben/Documents/repositories/Cinder/include"/>
 					<Add directory="/usr/include/c++/11"/>
@@ -126,9 +122,6 @@
 			<Option target="periodic"/>
 		</Unit>
 		<Unit filename="/home/ben/CLionProjects/periodic/table.h">
-			<Option target="periodic"/>
-		</Unit>
-		<Unit filename="/home/ben/Documents/repositories/Cinder/blocks/Cairo/src/Cairo.cpp">
 			<Option target="periodic"/>
 		</Unit>
 		<Unit filename="/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_reader.cpp">

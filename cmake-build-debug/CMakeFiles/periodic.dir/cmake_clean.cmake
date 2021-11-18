@@ -1,7 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/periodic.dir/appdatamanager.cpp.o"
   "CMakeFiles/periodic.dir/eleminfodlg.cpp.o"
-  "CMakeFiles/periodic.dir/home/ben/Documents/repositories/Cinder/blocks/Cairo/src/Cairo.cpp.o"
   "CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_reader.cpp.o"
   "CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_value.cpp.o"
   "CMakeFiles/periodic.dir/home/ben/Documents/repositories/jsoncpp/src/lib_json/json_writer.cpp.o"

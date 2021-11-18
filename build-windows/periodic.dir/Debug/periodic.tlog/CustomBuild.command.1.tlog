@@ -1,0 +1,10 @@
+^C:\USERS\BEN\DOCUMENTS\PERIODIC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ben/Documents/periodic -BC:/Users/ben/Documents/periodic/build-windows --check-stamp-file C:/Users/ben/Documents/periodic/build-windows/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

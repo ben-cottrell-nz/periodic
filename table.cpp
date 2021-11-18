@@ -37,27 +37,39 @@ void Table::draw() {
     for (y = 0; y < ROWS; y++) {
         for (x = 0; x < COLUMNS; x++) {
             if (elemSymbols[y][x][0] != '\t') {
-                uint32_t colorVal;
+                uint32_t colorVal = 0xcccccc;
                 Entry &e = mEntries[index++];
                 auto str = AppDataManagerInstance()->getValForElem(e.elemSymbol, "CPKHexColor");
-                str.insert(0, "0x");
-                colorVal = stoi(
-                        str,
-                        0, 16);
-                gl::color(Color::hex(colorVal) * 0.5);
+                if (str.length() > 0) {
+                    str.insert(0, "0x");
+                    colorVal = stoi(
+                            str,
+                            0, 16);
+                }
+                ColorA aColor = ColorA::hex(colorVal) * 0.5;
+                aColor.a = mAlpha;
+                gl::color(aColor);
                 gl::drawSolidRoundedRect(e.pos, 5);
                 auto entrySymbolKeys = AppDataManagerInstance()->entrySymbolInfoKeys();
-
-//                gl::color(Color::hex(0x222222));
-                gl::color(Color::hex(colorVal) * 3);
-                mTextureFont->drawString(elemSymbols[y][x],
-                                         vec2{entryWidth * x, entryHeight * y + mTextureFont->getFont().getSize() * 2});
+                gl::color(aColor * 3);
+                gl::drawString(elemSymbols[y][x],
+                               vec2{entryWidth * x + padding, entryHeight * y + padding},
+                               aColor * 3, mBigFont
+                );
+//                mTextureFont->drawString(elemSymbols[y][x],
+//                                         vec2{entryWidth * x + padding, entryHeight * y + mTextureFont->getFont().getSize() * 2 + padding});
                 gl::drawString(AppDataManagerInstance()->getValForElem(e.elemSymbol, "AtomicNumber"),
-                               vec2{entryWidth * x, entryHeight * y + entryHeight - mSmallFont.getSize()},
-                               Color::hex(colorVal) * 3, mSmallFont);
+                               vec2{entryWidth * x + padding,
+                                    entryHeight * y + entryHeight - mSmallFont.getAscent() - padding},
+                               aColor * 3, mSmallFont);
+
             }
         }
     }
+//    gl::drawString("Based on data provided by PubChem",
+//                   { getWindowCenter().x, getWindowHeight() - mSmallFont.getSize()},
+//                   ColorA(1,1,1,mAlpha),
+//                   mSmallFont);
 }
 
 bool Table::isVisible() {
@@ -76,8 +88,10 @@ void Table::mouseDown(MouseEvent &event, function<void(Entry *)> handler) {
 
 void Table::resize() {
     ivec2 windowSize = getWindowSize();
+    windowSize.y -= BOTTOM_SPACE;
     entryWidth = windowSize.x / COLUMNS;
     entryHeight = windowSize.y / ROWS;
+    mBigFont = Font(loadAsset("Lato-Bold.ttf"), max(entryWidth, entryHeight) * 0.3);
     int y, x, index = 0;
     for (y = 0; y < ROWS; ++y) {
         for (x = 0; x < COLUMNS; ++x) {
@@ -108,10 +122,21 @@ void Table::setup() {
         }
     }
     mFont = Font("", max(entryWidth, entryHeight) * 0.5);
-    mSmallFont = Font("",16);
+    mSmallFont = Font("", 16);
+    mTitleFont = Font("", 36);
+    mBigFont = Font(loadAsset("Lato-Bold.ttf"), max(entryWidth, entryHeight) * 0.3);
     mTextureFont = gl::TextureFont::create(mFont);
 }
 
 void Table::setVisible(bool v) {
     mVisible = v;
+}
+
+void Table::transitionEnter() {
+    mAlpha = 0;
+    timeline().apply(&mAlpha, 1.f, 1, EaseInCubic());
+}
+
+void Table::transitionLeave() {
+    timeline().apply(&mAlpha, 0.f, 0.6, EaseOutCubic());
 }

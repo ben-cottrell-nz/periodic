@@ -1,0 +1,3 @@
+C:/Users/ben/Documents/periodic/build-windows/CMakeFiles/periodic.dir
+C:/Users/ben/Documents/periodic/build-windows/CMakeFiles/ALL_BUILD.dir
+C:/Users/ben/Documents/periodic/build-windows/CMakeFiles/ZERO_CHECK.dir

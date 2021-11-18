@@ -81,12 +81,12 @@ clean: CMakeFiles/periodic.dir/clean
 CMakeFiles/periodic.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/periodic.dir/build.make CMakeFiles/periodic.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/periodic.dir/build.make CMakeFiles/periodic.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ben/CLionProjects/periodic/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target periodic"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ben/CLionProjects/periodic/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target periodic"
 .PHONY : CMakeFiles/periodic.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/periodic.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ben/CLionProjects/periodic/cmake-build-debug/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ben/CLionProjects/periodic/cmake-build-debug/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/periodic.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ben/CLionProjects/periodic/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/periodic.dir/rule
