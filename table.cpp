@@ -31,7 +31,7 @@ float entryWidth, entryHeight;
 void Table::draw() {
     vec2 offset = vec2(0);
     int y, x;
-    const int padding = 15;
+    const int padding = 2;
     int index = 0;
     gl::color(Color::white());
     for (y = 0; y < ROWS; y++) {
@@ -41,7 +41,7 @@ void Table::draw() {
                 Entry &e = mEntries[index++];
                 auto str = AppDataManagerInstance()->getValForElem(e.elemSymbol, "CPKHexColor");
                 if (str.length() > 0) {
-                    str.insert(0, "0x");
+                    //str.insert(0, "0x");
                     colorVal = stoi(
                             str,
                             0, 16);
@@ -52,16 +52,24 @@ void Table::draw() {
                 gl::drawSolidRoundedRect(e.pos, 5);
                 auto entrySymbolKeys = AppDataManagerInstance()->entrySymbolInfoKeys();
                 gl::color(aColor * 3);
-                gl::drawString(elemSymbols[y][x],
-                               vec2{entryWidth * x + padding, entryHeight * y + padding},
-                               aColor * 3, mBigFont
+                vec2 stxtSize = mFontTexElemSymbol->measureString(elemSymbols[y][x]);
+                mFontTexElemSymbol->drawString(elemSymbols[y][x],
+                                               {x * entryWidth + padding,
+                                                entryHeight + (y * entryHeight) + stxtSize.y});
+                mFontTexSmall->drawString(AppDataManagerInstance()->getValForElem(e.elemSymbol, "AtomicNumber"),
+                                          vec2{entryWidth * x + padding,
+                                               entryHeight * y + mFontTexSmall->getFont().getSize() * 2 + padding}
                 );
+//                gl::drawString(elemSymbols[y][x],
+//                               vec2{entryWidth * x + padding, entryHeight * y + padding},
+//                               aColor * 3, mBigFont
+//                );
 //                mTextureFont->drawString(elemSymbols[y][x],
 //                                         vec2{entryWidth * x + padding, entryHeight * y + mTextureFont->getFont().getSize() * 2 + padding});
-                gl::drawString(AppDataManagerInstance()->getValForElem(e.elemSymbol, "AtomicNumber"),
-                               vec2{entryWidth * x + padding,
-                                    entryHeight * y + entryHeight - mSmallFont.getAscent() - padding},
-                               aColor * 3, mSmallFont);
+//                gl::drawString(AppDataManagerInstance()->getValForElem(e.elemSymbol, "AtomicNumber"),
+//                               vec2{entryWidth * x + padding,
+//                                    entryHeight * y + entryHeight - mSmallFont.getAscent() - padding},
+//                               aColor * 3, mSmallFont);
 
             }
         }
@@ -91,7 +99,8 @@ void Table::resize() {
     windowSize.y -= BOTTOM_SPACE;
     entryWidth = windowSize.x / COLUMNS;
     entryHeight = windowSize.y / ROWS;
-    mBigFont = Font(loadAsset("Lato-Bold.ttf"), max(entryWidth, entryHeight) * 0.3);
+    mBigFont = Font(loadAsset("Lato-Bold.ttf"), entryWidth * 0.5);
+    mFontTexElemSymbol = TextureFont::create(mBigFont);
     int y, x, index = 0;
     for (y = 0; y < ROWS; ++y) {
         for (x = 0; x < COLUMNS; ++x) {
@@ -124,8 +133,9 @@ void Table::setup() {
     mFont = Font("", max(entryWidth, entryHeight) * 0.5);
     mSmallFont = Font("", 16);
     mTitleFont = Font("", 36);
-    mBigFont = Font(loadAsset("Lato-Bold.ttf"), max(entryWidth, entryHeight) * 0.3);
-    mTextureFont = gl::TextureFont::create(mFont);
+    mBigFont = Font(loadAsset("Lato-Bold.ttf"), max(entryWidth, entryHeight) * 0.6);
+    mFontTexElemSymbol = gl::TextureFont::create(mBigFont);
+    mFontTexSmall = gl::TextureFont::create(mSmallFont);
 }
 
 void Table::setVisible(bool v) {

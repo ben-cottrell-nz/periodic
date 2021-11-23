@@ -49,8 +49,6 @@
 					<Add option="-DCINDER_GL_CORE"/>
 					<Add option="-D_UNIX"/>
 					<Add option="-D_GLFW_X11"/>
-					<Add directory="/home/ben/Documents/repositories/Cinder/blocks/Cairo/include"/>
-					<Add directory="/home/ben/Documents/repositories/Cinder/blocks/Cairo/include/cinder/cairo"/>
 					<Add directory="/home/ben/Documents/repositories/jsoncpp/include"/>
 					<Add directory="/home/ben/Documents/repositories/Cinder/include"/>
 					<Add directory="/usr/include/c++/11"/>
@@ -80,8 +78,6 @@
 					<Add option="-DCINDER_GL_CORE"/>
 					<Add option="-D_UNIX"/>
 					<Add option="-D_GLFW_X11"/>
-					<Add directory="/home/ben/Documents/repositories/Cinder/blocks/Cairo/include"/>
-					<Add directory="/home/ben/Documents/repositories/Cinder/blocks/Cairo/include/cinder/cairo"/>
 					<Add directory="/home/ben/Documents/repositories/jsoncpp/include"/>
 					<Add directory="/home/ben/Documents/repositories/Cinder/include"/>
 					<Add directory="/usr/include/c++/11"/>

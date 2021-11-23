@@ -11,6 +11,7 @@
 
 using namespace ci;
 using namespace ci::app;
+using namespace ci::gl;
 using namespace std;
 
 class Table {
@@ -29,9 +30,10 @@ public:
     void transitionLeave();
 private:
     Entry* mSelectedEntry;
-    gl::TextureFontRef mTextureFont;
     bool mVisible;
     vector<Entry> mEntries;
+    TextureFontRef mFontTexElemSymbol;
+    TextureFontRef mFontTexSmall;
     Font mFont;
     Font mBigFont;
     Font mSmallFont;
