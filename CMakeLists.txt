@@ -8,8 +8,6 @@ set(JSONCPP_PATH /home/ben/Documents/repositories/jsoncpp)
 if (${CMAKE_SYSTEM_NAME} STREQUAL "Linux")
 include(${CINDER_PATH}/build/lib/linux/x86_64/ogl/Debug/cinderTargets.cmake)
 include_directories(
-        ${CINDER_PATH}/blocks/Cairo/include
-        ${CINDER_PATH}/blocks/Cairo/include/cinder/cairo
         ${JSONCPP_PATH}/include/
 )
 elseif (${CMAKE_SYSTEM_NAME} STREQUAL "Windows")

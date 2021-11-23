@@ -29,8 +29,6 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/ben/Documents/repositories/Cinder/blocks/Cairo/include"
-  "/home/ben/Documents/repositories/Cinder/blocks/Cairo/include/cinder/cairo"
   "/home/ben/Documents/repositories/jsoncpp/include"
   "/home/ben/Documents/repositories/Cinder/include"
   )
